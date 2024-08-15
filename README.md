@@ -1,2 +1,2 @@
 # Practica - Entornos Graficos
-# Alumnos: Franco IsmaeL, Carfagno Chiara
+### Alumnos: Franco Ismael, Carfagno Chiara
