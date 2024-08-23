@@ -184,7 +184,7 @@ Ambos codios generan la misma tabla, la diferencia es que el primero por medio d
         <td width="50%">&nbsp;</td>
     </tr>
 </table>   
-Ambos codios generan la misma tabla, la diferencia es que el primero cada seccion esta separada por un margen que se generan entre si. En camnbio en el Segundo codigo con los elementos cellpadding y cellspacing hace que no haya espacios entre si
+Ambos codigos generan la misma tabla, la diferencia es que en el primero cada seccion esta separada por un margen que se genera entre si. En cambio en el segundo codigo con los elementos cellpadding y cellspacing hace que no haya espacios entre si.
 
 3h)
 <form id="form1" name="form1" action="procesar.php" method="post" target="_blank">
@@ -203,7 +203,7 @@ Ambos codios generan la misma tabla, la diferencia es que el primero cada seccio
     <input type="submit" id="boton2" name="boton2" value="Enviar" />
 </form>
 <br>
-<form id="form3" name="form3" action="mailto:xx@xx.com” enctype=text/plain method="post" target="_blank">
+<form id="form3" name="form3" action="mailto:xx@xx.com" enctype=text/plain method="post" target="_blank">
     <fieldset>
         <legend>LOGIN</legend>
         Usuario: <input type="text" id="usu3" name="usu3" /><br />
@@ -211,18 +211,19 @@ Ambos codios generan la misma tabla, la diferencia es que el primero cada seccio
     </fieldset>
     <input type="reset" id="boton3" name="boton3" value="Enviar" />
 </form>
-
+Todos los codigos generan un formulario de ingreso. Las diferencias entre si son: El primero y el tercero tienen la etiquea fieldset que genera un recuadroy la etiqueta legend la cual le da nombre al recuadro. El primero ya tiene cargado los datos de usuario y la contraseña, pero los reemplaza por el valor xxx, este codigo tampoco permite ver la contraseña salvo que esta se modifique. El segundo codigo nunca oculta la contraseña. El tercero permite ingresar cualquier valor en ambos campos y haciendo click en el ojo en el campo de la contraseña te deja verla. Tambien al hacer click en el boton enviar deberia mandar un mail a una cuenta predeterminada por el atributo acction= mailto. 
 
 3i)
 <label>Botón 1
     <button type="button" name="boton1" id="boton1">
     <img src="im1.jpg" alt="Botón con imagen " width="30" height="20" /><br />
-    <b>CLICK AQUÍ</b></button></label>
-    <br>
-    <label>Botón 2
+    <b>CLICK AQUÍ</b></button>
+</label>
+<br><br>
+<label>Botón 2
     <input type="button" name="boton2" id="boton2" value="CLICK AQUÍ" />
 </label>
-
+Ambos codigos generan un boton, la unica diferencia es que el primero en el boton tiene incluida una imagen. Ninguno de los dos redireccionan ya que no tienen asociado una URL de destino.
 
 3j)
 <p>
@@ -234,7 +235,7 @@ Ambos codios generan la misma tabla, la diferencia es que el primero cada seccio
     <label><input type="radio" name="opcion1" id="X" value="X" />X</label><br />
     <label><input type="radio" name="opcion2" id="Y" value="Y" />Y</label>
 </p>
-
+Ambos crean un tipo de formulario donde el usuario puede seleccionar opciones. Se diferencian en que el primero las dos opciones tienen el mismo valor en el atributo name, por lo que solo permite al usuario marcar una, mientras que el segundo al tener valores diferentes en el atributo name, si le permite seleccionar las dos opciones en simultaneo.
 
 3k)
 <select name="lista">
@@ -258,3 +259,4 @@ Ambos codios generan la misma tabla, la diferencia es que el primero cada seccio
         <option>Junio</option>
     </optgroup>
 </select>
+El primer codigo genera una lista desplegable que al seleccionar una opcion, oculta las demas. Mientras que el segundo genera una lista multilpe, donde puede visualizar todas las opciones luego de haber elegido una y a que caso pertenece. Esto se debe al atributo multiple.
