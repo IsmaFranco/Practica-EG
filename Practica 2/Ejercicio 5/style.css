@@ -1,0 +1,26 @@
+*{
+    background-color: rgb(168, 186, 238);
+}
+h2.titulo{
+    color: red;
+}
+ol, .conteiner p a{
+    color: black;
+}
+.ultimo{
+    color: black;
+}
+.ultimo ul{
+    color:yellow;
+}
+h1.titulo, .ultimo ul a{
+    color: blue;
+}
+.importante{
+    color: green;
+}
+ol li a{
+    text-decoration: none;
+}
+a:visited{color: violet;}
+
