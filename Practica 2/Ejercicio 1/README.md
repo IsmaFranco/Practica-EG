@@ -18,9 +18,22 @@
 
 4. ¿Cuáles son los distintos tipos de selectores más utilizados? Ejemplifique cada uno. 
     Los tipos de selectores más utilizados son:
-    1. 
+    1. Selector de elementos: selecciona la etiqueta y le da un estilo, por ejemplo: h2{color: gray}
+    2. Selector universal: es el * selecciona todos los elementos del HTML
+    3. Selector de clase: selecciona la clase de cualquier etiqueta con el mismo nombre, por ejemplo: h2 class= "con", h1 class="con", .con{background-color: black} le asigana el mismo back-ground a dos etiquietas distintas
+    4. Selector Id: es lo exactamente igual que el de clase pero con la diferencia que este es unico para cada etiqueta y su representacion en css es: #id {color: black}
+    5. Selectores descendientes: sirve para ser mas especificos a la hora de dar los estilos, se separan mediante espacio en la declaracion de su css, por ejemplo tenemos un h1 que dentro tiene una etiqueta i, si queremos ser especificos para darle un estilo a la etiqueta i habria que declararlo de la siguiente manera: h1 i {color: gray}, esto se aplica solo para la etiqueta i
 
 5. ¿Qué es una pseudo-clase? Cuáles son las más utilizadas aplicadas a vínculos?
-    
+    Una pseudo-clase es una palabra clave añadida a un selector que especifica un estado especial del elemento seleccionado. Las pseudo-clases más utilizadas aplicadas a vínculos son:
+
+    1. :link - Selecciona un enlace que no ha sido visitado.
+    2. :visited - Selecciona un enlace que ha sido visitado.
+    3. :hover - Selecciona un enlace cuando el usuario coloca el cursor sobre él.
+    4. :active - Selecciona un enlace en el momento en que es activado (por ejemplo, cuando se hace clic en él).
+
 6. ¿Qué es la herencia? 
+    La herencia en CSS se refiere a cómo algunas propiedades de estilo se transmiten de un elemento padre a sus elementos hijos. No todas las propiedades CSS son heredadas automáticamente, pero muchas propiedades relacionadas con el texto y la fuente sí lo son.
+
 7. ¿En qué consiste el proceso denominado cascada?
+    El proceso denominado "cascada" en CSS se refiere a cómo los estilos se aplican a los elementos HTML en función de la especificidad, el origen de los estilos y el orden en que se encuentran. La cascada determina qué reglas de estilo se aplican cuando hay múltiples reglas que podrían aplicarse a un mismo elemento.
