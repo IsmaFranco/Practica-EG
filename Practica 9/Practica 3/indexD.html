@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica 3 D</title>
+    <link rel="stylesheet" href="../../bootstrap/css/bootstrap.min.css">
+    <style>
+        *{
+            background-color: lightblue;
+        }
+    </style>
+</head>
+<body>
+    <div class="container" style="width: 50%;">
+        <h4>Contacto</h4>
+        <p>Contactenos completando el siguiente formulario.</p>
+          <form>
+            <div class="form-row">
+                <div class="col">
+                    <p>Ingrese su nombre</p>
+                  <input type="text" class="form-control" placeholder="Nombre">
+                </div> <br>
+                <div class="col">
+                    <p>Ingrese el asunto</p>
+                  <input type="text" class="form-control" placeholder="Asunto">
+                </div> <br>
+                <div class="col">
+                    <p>Ingrese su telefono</p>
+                  <input type="text" class="form-control" placeholder="Telefono">
+                </div>
+              </div>
+              <br>
+        <div class="form-group"> <!-- mail -->
+          <label for="exampleInputEmail1">Ingrese su correo</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="example@xx.com">
+          <br>
+        </div>
+        <div class="form-group"> <!-- area de texto -->
+            <label for="exampleFormControlTextarea1"> Cuéntenos sus dudas</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+          <br>
+        <button type="submit" class="btn btn-primary">Enviar</button>
+      </form>
+    </div>
+    <script src="../../bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html> 
