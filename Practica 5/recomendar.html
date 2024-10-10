@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+    <title>Recomendar Sitio</title>
+</head>
+<body>
+    <?php include 'contador_visitas.php'; ?> <!-- Incluir el contador de visitas -->
+    <div class="container mt-5">
+        <h1>Recomendar Sitio</h1>
+        <form action="recomendar.php" method="post" style="width: 50%">
+            <div class="mb-3">
+                <label for="nombre" class="form-label">Tu Nombre</label>
+                <input type="text" class="form-control" id="nombre" name="nombre" required>
+            </div>
+            <div class="mb-3">
+                <label for="mail" class="form-label">Tu Correo Electrónico</label>
+                <input type="email" class="form-control" id="mail" name="mail" required>
+            </div>
+            <div class="mb-3">
+                <label for="nombreAmigo" class="form-label">Nombre de tu Amigo</label>
+                <input type="text" class="form-control" id="nombreAmigo" name="nombreAmigo" required>
+            </div>
+            <div class="mb-3">
+                <label for="mailAmigo" class="form-label">Correo Electrónico de tu Amigo</label>
+                <input type="email" class="form-control" id="mailAmigo" name="mailAmigo" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar Recomendación</button>
+        </form>
+    </div>
+    <script src="../bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>
