@@ -1,4 +1,4 @@
-#Ejercicio 1
+# Ejercicio 1
 
 Consulta a una base de datos: Para comenzar la comunicación con un servidor de base de datos MySQL, es
 necesario abrir una conexión a ese servidor. Para inicializar esta conexión, PHP ofrece la función
@@ -26,7 +26,6 @@ y la función mysqli_error () se puede usar para
 #   devolver el último mensaje de error para la llamada más reciente a una función de MySQLi que puede haberse ejecutado correctamente o haber fallado
 …………………………………………………………………………………………
 
-
 Explicacion del codigo:
     <?php
     while ($fila = mysqli_fetch_array($vResultado))
@@ -44,6 +43,5 @@ Explicacion del codigo:
     mysqli_free_result($vResultado);
     mysqli_close($link);
     ?>
-    
 
-Este codigo se ejecuta luego de hacer una consulta @mysqli_query() y que esta haya sido exitosa. Lo que muestra es los valores de la variable $vResultado por medio de la posicion de filas de un array.
+# Este codigo se ejecuta luego de hacer una consulta @mysqli_query() y que esta haya sido exitosa. Lo que muestra es los valores de la variable $vResultado por medio de la posicion de filas de un array.
